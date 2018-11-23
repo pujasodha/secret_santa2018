@@ -6,7 +6,10 @@
     "fs-react": "0.0.4",
     "fs-readdir": "0.0.3",
     "fs.realpath": "^1.0.0",
+<<<<<<< HEAD
     "gh-pages": "^2.0.1",
+=======
+>>>>>>> 76d104e11b5cbcd6cc377af625b130bd0d045ff9
     "glob": "^7.1.3",
     "list-react-files": "^0.2.0",
     "react": "^16.6.0",
