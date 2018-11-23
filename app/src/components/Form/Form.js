@@ -58,10 +58,16 @@ export default class Form extends Component {
     render() {
         return (
             <div>
+                <div class = 'head_text'>Ok Ladies, It's time for Secret Santa. <br />
+                Enter in your name & email address and the bot will do the rest. <br />
+                Look out for an email for your assignment once everyone has inputted their information. <br />
+                There is a $20 limit.
+                <br />
+                </div>
                 <form onSubmit={this.handleSubmit} method="POST">
-                    <label>Name</label>
+                    <label>Your Name: </label>
                     <input type="text" id="name" name='name' required/>
-                    <label>Email</label>
+                    <label>Your Email: </label>
                     <input type="email" id="email" name='email'  required/>
                     <input type = 'submit' />
                 </form>
